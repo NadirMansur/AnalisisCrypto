@@ -110,3 +110,5 @@ You're about to initialize a Firebase project in this directory:
 [info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_ANALISISCRYPO. 
 [info] i  You can manage your secrets at https://github.com/NadirMansur/AnalisisCrypto/settings/secrets. 
 [info] 
+[info] 
+[info] +  Created workflow file C:\Users\fmaro\Desktop\Henry\Poryecto Cypto\Crypto-FireBase\.github/workflows/firebase-hosting-pull-request.yml 
