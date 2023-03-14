@@ -1,5 +1,22 @@
 'use strict'
-let valorCrypto = {};
+// Importa la biblioteca de Firebase
+import firebase from "firebase/app";
+import "firebase/database";
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyBs3jC5ZUrlZ43rj2FdNGtg8SKQZk_aRJo",
+    authDomain: "analisiscrypo.firebaseapp.com",
+    databaseURL: "https://analisiscrypo-default-rtdb.firebaseio.com",
+    projectId: "analisiscrypo",
+    storageBucket: "analisiscrypo.appspot.com",
+    messagingSenderId: "484519512287",
+    appId: "1:484519512287:web:b175b5f54cf6768ba0c16a"
+  };
+const app = initializeApp(firebaseConfig);
+
+const database = firebase.database();
+
 let ethData;
 let ethDataArray = [];
 
